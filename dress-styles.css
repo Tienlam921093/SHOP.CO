@@ -1,0 +1,29 @@
+/* Figma 22:672: 1239 x 866. The source images retain their designed crop. */
+.dress-browser{width:min(1239px,calc(100% - 64px));margin:62px auto 88px;container-type:inline-size}
+.dress-panel{position:relative;background:#f0f0f0;border-radius:3.22841cqw;overflow:hidden;padding:15.49637cqw 5.16546cqw 6.13398cqw}
+.dress-panel h2{position:absolute;left:50%;top:7.99031cqw;transform:translate(-50%,-50%);margin:0;width:100%;text-align:center;font-family:'Integral CF','DM Sans',Arial,sans-serif;font-weight:900;font-size:3.87409cqw;line-height:1.2;letter-spacing:-.04em;color:#000}
+.dress-rows{display:grid;gap:1.61421cqw}
+.dress-row{display:grid;grid-template-columns:407fr 684fr;gap:1.61421cqw;height:23.32526cqw}
+.dress-row--reverse{grid-template-columns:684fr 407fr}
+.dress-card{display:block;position:relative;min-width:0;overflow:hidden;background:#fff;border-radius:1.61421cqw;isolation:isolate}
+.dress-card:focus-visible{outline:3px solid #000;outline-offset:4px}
+.dress-card img{position:absolute;display:block;max-width:none;object-fit:cover;pointer-events:none}
+.dress-card span{position:absolute;z-index:1;left:2.90557cqw;top:3.99516cqw;transform:translateY(-50%);font-family:'Satoshi','DM Sans',Arial,sans-serif;font-size:2.90557cqw;font-weight:700;line-height:1.35;color:#000}
+.dress-card--casual img{width:239.06634%;height:224.56747%;left:-85.25799%;top:-42.21453%;transform:scaleX(-1)}
+.dress-card--formal img{width:190.93567%;height:301.03806%;left:0;top:-50.51903%}
+.dress-card--party img{width:112.57310%;height:213.14879%;left:6.14035%;top:-56.40138%}
+.dress-card--gym img{width:111.05651%;height:234.25606%;left:13.02211%;top:-51.21107%}
+/* Figma mobile 35:927: 358 x 975, four stacked cards. */
+@media(max-width:760px){
+  .dress-browser{width:calc(100% - 32px);margin:44px auto 58px}
+  .dress-panel{border-radius:5.58659cqw;padding:39.10615cqw 6.70391cqw 7.54190cqw}
+  .dress-panel h2{top:21.22905cqw;width:68.71508cqw;font-size:8.93855cqw;line-height:10.05587cqw}
+  .dress-rows,.dress-row{gap:4.46927cqw}
+  .dress-row,.dress-row--reverse{grid-template-columns:minmax(0,1fr);height:auto}
+  .dress-card{height:53.07263cqw;border-radius:5.58659cqw}
+  .dress-card span{font-size:6.70391cqw;left:6.70391cqw;top:8.93855cqw}
+  .dress-card--casual img{width:184.51613%;height:201.57895%;left:-55.16129%;top:-39.47368%}
+  .dress-card--formal img{width:228.70968%;height:248.42105%;left:-5.48387%;top:-46.31579%}
+  .dress-card--party img{width:125.48387%;height:163.68421%;left:0;top:-43.15789%}
+  .dress-card--gym img{width:91.93548%;height:223.68421%;left:22.58065%;top:-47.36842%}
+}

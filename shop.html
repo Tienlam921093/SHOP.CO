@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en" translate="no">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#fff" />
+  <meta name="google" content="notranslate" />
+  <title>SHOP.CO — Everyday Fashion</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="shop.css?v=account-avatar-1" />
+  <link rel="stylesheet" href="dress-styles.css?v=1" />
+  <script defer src="shop.js?v=account-avatar-1"></script>
+</head>
+<body class="shopco">
+  <div class="promo"><span>Sign up and get 20% off to your first order.</span> <a href="shop.html?p=signup">Sign Up Now</a><button aria-label="Dismiss promotion" data-dismiss-promo>×</button></div>
+  <header class="shop-header">
+    <button class="mobile-menu icon" aria-label="Open navigation" data-menu-toggle><svg viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
+    <a class="shop-logo" href="shop.html" aria-label="SHOP.CO home">SHOP.CO</a>
+    <nav class="main-nav" aria-label="Main navigation"><a href="shop.html?p=category">Shop <span>⌄</span></a><a href="shop.html?p=category&sale=1">On Sale</a><a href="shop.html?p=category&new=1">New Arrivals</a><a href="shop.html?p=category&brand=brands">Brands</a></nav>
+    <form class="search-box" id="shop-search"><button aria-label="Search"><svg viewBox="0 0 24 24"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 5 5"/></svg></button><input id="search-input" type="search" placeholder="Search for products..." aria-label="Search for products" /></form>
+    <div class="header-tools"><a href="shop.html?p=wishlist" class="icon" aria-label="Favorites"><svg viewBox="0 0 24 24"><path d="M20.8 8.8c0 5.2-8.8 11-8.8 11s-8.8-5.8-8.8-11A4.8 4.8 0 0 1 12 6.2a4.8 4.8 0 0 1 8.8 2.6Z"/></svg><i class="badge" id="favorite-count" hidden>0</i></a><a href="shop.html?p=cart" class="icon" aria-label="Cart"><svg viewBox="0 0 24 24"><path d="M2 3h2l2.2 12.1a2 2 0 0 0 2 1.6h9.9a2 2 0 0 0 1.9-1.5L22 8H5"/><circle cx="9" cy="20" r="1.2"/><circle cx="18" cy="20" r="1.2"/></svg><i class="badge" id="cart-count" hidden>0</i></a><a href="shop.html?p=login" class="icon account-link" aria-label="Account"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="3.5"/><path d="M4.5 21a7.5 7.5 0 0 1 15 0Z"/></svg></a></div>
+  </header>
+  <div class="mobile-nav" id="mobile-nav" hidden><a href="shop.html?p=category">Shop</a><a href="shop.html?p=category&sale=1">On Sale</a><a href="shop.html?p=category&new=1">New Arrivals</a><a href="shop.html?p=category&brand=brands">Brands</a><a href="shop.html?p=login">Log in / Sign up</a></div>
+  <main id="shop-main"></main>
+  <footer class="shop-footer"><div class="newsletter"><div><h2>STAY UPTO DATE ABOUT<br/>OUR LATEST OFFERS</h2></div><form id="newsletter-form"><label class="newsletter-email"><span>✉</span><input type="email" required placeholder="Enter your email address" aria-label="Email address" /></label><button>Subscribe to Newsletter</button></form></div><div class="footer-columns"><section class="footer-about"><a class="shop-logo" href="shop.html">SHOP.CO</a><p>We have clothes that suits your style and which you’re proud to wear. From women to men.</p><div class="socials"><a aria-label="Twitter">𝕏</a><a aria-label="Facebook">f</a><a aria-label="Instagram">◎</a><a aria-label="GitHub">◉</a></div></section><section><h3>COMPANY</h3><a>About</a><a>Features</a><a>Works</a><a>Career</a></section><section><h3>HELP</h3><a>Customer Support</a><a>Delivery Details</a><a>Terms &amp; Conditions</a><a>Privacy Policy</a></section><section><h3>FAQ</h3><a href="shop.html?p=login">Account</a><a>Manage Deliveries</a><a href="shop.html?p=orders">Orders</a><a>Payment</a></section><section><h3>RESOURCES</h3><a>Free eBook</a><a>Development Tutorial</a><a>How to - Blog</a><a>YouTube Playlist</a></section></div><div class="footer-bottom"><span>Shop.co © 2000-2023, All Rights Reserved</span><span class="payment-icons">VISA　●　PayPal　 G Pay　 Pay</span></div></footer>
+  <div class="toast" id="shop-toast" role="status" aria-live="polite"></div>
+</body>
+</html>
